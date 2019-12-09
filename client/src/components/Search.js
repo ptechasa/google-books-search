@@ -11,7 +11,7 @@ const Search = props =>
                 <input style={{ fontSize: 30 }} placeholder="Book title" id="bookName"></input>
                 <div className="row">
                     <div className="col s12">
-                        <button onClick={props.takeBook} className="btn btn-block waves-effect waves-light btn-large right" style={{ fontSize: 30, margin: 30, backgroundColor: "#1387ff" }} type="submit">
+                        <button onClick={props.takeBook} className="btn btn-block waves-effect waves-light btn-large right" style={{ fontSize: 30, margin: 30, backgroundColor: "#ffb813" }} type="submit">
                         Search
                         </button>
                     </div>

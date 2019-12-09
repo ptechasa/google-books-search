@@ -21,7 +21,7 @@ const SavedBook = (props) => {
                                 <p> ${props.price} </p>
                                 <p>
                                     <a target={"_blank"} rel="nonopener nonreferrer" style={{ display: "inline-block" }} href={props.link}>Buy</a>
-                                    <button onClick={props.deleteBook} style={{ backgroundColor: "#1387ff", display: "inline-block" }} className="btn-floating btn-large waves-effect waves-light right">Delete</button>
+                                    <button onClick={props.deleteBook} style={{ backgroundColor: "#ffb813", display: "inline-block" }} className="btn-floating btn-large waves-effect waves-light right">Delete</button>
                                 </p>
                             </div>
                         </div>
