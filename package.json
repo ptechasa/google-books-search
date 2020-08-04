@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,8 @@
     "express": "^4.17.1",
     "mongojs": "^3.1.0",
     "request": "^2.88.0",
-    "serialize-javascript": "^2.1.2"
-  }
+    "serialize-javascript": "^3.1.0",
+    "snyk": "^1.369.2"
+  },
+  "snyk": true
 }
