@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/divijmathur/Google-Books-Search#readme",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.19.2",
     "mongojs": "^3.1.0",
     "request": "^2.88.2",
     "serialize-javascript": "^3.1.0",
